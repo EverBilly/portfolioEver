@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-white: #fff;
+}
+body {
+  background: #f2f2f2;
+  font-family: 'Ubuntu', sans-serif;
+  background-repeat: no-repeat;
+}
+header {
+  color: var(--color-white);
+}
+header a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+.logo-menu {
+  background: #00171f;
+}
+.logo h2 {
+  font-family: 'Ubuntu';
+  /* font-weight: 300; */
+  font-size: 30px;
+}
+.logo-menu .menu a {
+  display: inline-block;
+  padding: 40px 20px;
+}
+.logo-menu .menu a:hover {
+  border-bottom: 4px solid #ff9f1c;
+  padding-bottom: 30px;
+}
+.sub-menu {
+  background: #003459;
+}
+.sub-menu nav a {
+  display: inline-block;
+  padding: 26px 20px;
+}
+.sub-menu nav a:hover {
+  text-decoration: underline;
+}
+/* MAIN */
+.main {
+  margin: 30px 0;
+}
+.main .thumb {
+  margin-bottom: 20px;
+}
+.main .thumb img {
+  vertical-align: top;
+  width: 100%;
+  border-radius: 50%;
+}
+/* FOOTER */
+footer {
+  background: #00171f;
+  color: var(--color-white);
+  padding: 10px 0;
+}
+footer .nav a {
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  color: var(--color-white);
+  display: block;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+}
+footer .nav a:hover {
+  border-bottom: 4px solid #7f8c8d;
+}
+footer .logo {
+  background: #003459;
+  border-radius: 0 30px 0 30px;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 25px;
+  text-align: center;
+}
+footer .logo:hover {
+  background: #2980b9;
+}
+.redes, 
+.redes span{
+  margin: 10px;
+}
+.redes .fa-facebook:hover {
+  color: #0652DD;
+}
+.redes .fa-whatsapp:hover {
+  color: #2ecc71;
+}
+.redes .fa-instagram:hover {
+  color: #e74c3c;
+}
+.redes .fa-linkedin:hover {
+  color: #0652DD;
+}
+.redes .fa-twitter:hover {
+  color: #4bcffa;
+}
